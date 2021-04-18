@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+ background-size: cover;
+ background-position: center;
+background-image: linear-gradient(rgba(0,0,0,5),rgba(0,0,0,0.5)),url("../images/primary.jpg");
+}
+.container-fluid{
+    color:white;
+    margin-top: 10%;
+    font-size: 30px;
+
+}
+.btn{
+    margin:5%;
+}
+.navbar-brand{
+    color: white;
+    font-size: 33px;
+}
+.navbar-brand:hover{
+    color: #b4dafc;
+}
+.navbar-brand.active{
+    color: #b4dafc;
+}
+#navitem{
+    color: white;
+    font-size: 20px;
+}
+#navitem.active{
+    color: #b4dafc;
+}
+#navitem:hover{
+    color: #b4dafc;
+}
+.card{
+    display:inline-block;
+    margin-top:0.6%;
+    margin-right: 4%;
+    margin-left: 2%;
+    height:325px;
+    box-shadow: 2px 2px 7px white ;
+    border:3px white;
+    border-style: solid;
+    background-color:transparent;
+    color: white;  
+  
+
+    
+}
+.card-header{
+    margin-top: 150px;
+    font-size:100px;
+    background-color:transparent; 
+}
+#btn{
+    margin:0.3px;
+}
